@@ -19,7 +19,7 @@ const RecentOrders = () => {
               <p className="text-gray-800 font-bold">${order.total}</p>
               <p className="text-gray-400 text-sm">{order.name.first}</p>
             </div>
-            <p className="lg:flex md:hidden text-sm absolute right-6">
+            <p className="lg:flex md:hidden text-xs sm:text-sm absolute right-6">
               {order.date}
             </p>
           </li>

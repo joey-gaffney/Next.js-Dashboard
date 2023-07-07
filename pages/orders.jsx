@@ -6,12 +6,12 @@ import { data } from "../data/data.js";
 const orders = () => {
   return (
     <div className="bg-gray-100 min-h-screen">
-      <div className="flex justify-between px-4 pt-4">
+      <div className="flex justify-between p-4">
         <h2>Orders</h2>
         <h2>Welcome Back, Joey</h2>
       </div>
-      <div className="p-4">
-        <div className="w-full mx-auto p-4 border rounded-lg bg-white overflow-y-auto">
+      <div className="p-1 sm:p-4">
+        <div className="w-full mx-auto p-1 sm:p-4 border rounded-lg bg-white overflow-y-auto">
           <div className="my-3 p-2 grid md:grid-cols-4 sm:grid-cols-3 grid-cols-2 items-center justify-center cursor-pointer">
             <span className="">Order</span>
             <span className="sm:text-left text-right">Status</span>
@@ -25,7 +25,7 @@ const orders = () => {
                 className="bg-gray-50 hover:bg-gray-100 rounded-lg my-3 p-2 grid md:grid-cols-4 sm:grid-cols-3 grid-cols-2 items-center justify-between cursor-pointer"
               >
                 <div className="flex">
-                  <div className="bg-indigo-100 p-3 flex rounded-lg">
+                  <div className="sm:bg-indigo-100 sm:p-3 flex items-center rounded-lg">
                     <FaShoppingBag className="fill-indigo-500" />
                   </div>
                   <div className="pl-4 ">

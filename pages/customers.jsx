@@ -9,8 +9,8 @@ const customers = () => {
         <h2>Customers</h2>
         <h2>Welcome Back, Joey</h2>
       </div>
-      <div className="p-4 ">
-        <div className="w-full mx-auto p-4 border rounded-lg bg-white overlfow-y-auto">
+      <div className="p-1 sm:p-4 ">
+        <div className="w-full mx-auto p-1 sm:p-4 border rounded-lg bg-white overlfow-y-auto">
           <div className=" my-3 p-2 grid md:grid-cols-4 sm:grid-cols-3 grid-cols-2 items-center justify-between cursor-pointer">
             <spa>Name</spa>
             <span className="sm:text-left text-right">Email</span>
@@ -27,11 +27,11 @@ const customers = () => {
                   <div className="bg-indigo-100 p-3 rounded-lg">
                     <BsPersonFill className="fill-indigo-500" />
                   </div>
-                  <p className="pl-4">
+                  <p className="pl-2 sm:pl-4">
                     {order.name.first + " " + order.name.last}{" "}
                   </p>
                 </div>
-                <p className="text-gray-600 sm:text-left text-right">
+                <p className="text-gray-600 sm:text-left text-right text-xs sm:text-md">
                   {order.name.first}@letsgolf.com
                 </p>
                 <p className="hidden md:flex">{order.date}</p>
